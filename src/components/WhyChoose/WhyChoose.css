@@ -1,0 +1,15 @@
+/*
+src/components/WhyChoose.css
+*/
+.why-choose-section { padding: 60px 20px; background-color: #ffffff; display: flex; flex-direction: column; justify-content: center; }
+.why-choose-container { max-width: 1140px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start; }
+.why-choose-left { display: flex; flex-direction: column; min-width: 100%; text-align: center; align-items: center; }
+.why-choose-left h2 { font-size: 40px; font-weight: 700; color: #2a2a2a; margin-bottom: 20px; }
+.why-choose-left p { font-size: 18px; line-height: 1.7; color: #4a4a4a; max-width: 600px;   text-align: center; }
+.why-choose-right { display: flex; flex: 1 1 100%; flex-wrap: wrap; gap: 30px; margin-top: 40px; }
+.why-card { flex: 1 1 calc(33.333% - 20px); background: #f9f9f9; padding: 30px 25px; border-radius: 10px; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.why-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); }
+.why-card img { width: 60px; height: auto; margin-bottom: 20px; }
+.why-card h3 { font-size: 20px; font-weight: 600; margin-bottom: 10px; color: #2a2a2a; }
+.why-card p { font-size: 16px; color: #4a4a4a; line-height: 1.6; }
+.why-choose-left span{ color:#0f55a1 }

@@ -1,0 +1,9 @@
+/*
+src/components/WelcomeSection.css
+*/
+#welcome-to-section{ padding: 30px 120px 60px; background-color: #F7F7F7; }
+#welcome-to-section .container{ display: flex; text-align: center; flex-direction: column; }
+#welcome-to-section h1{ font-weight: 800; font-size:30px; padding-bottom: 20px }
+#welcome-to-section p{ padding-bottom: 10px; line-height: 40px; }
+#welcome-to-section span{ color:#0f55a1 }
+

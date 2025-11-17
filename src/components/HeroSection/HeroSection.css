@@ -1,0 +1,87 @@
+#hero-section {
+  background-image: url("./Safa-Office.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 140px 20px 100px;
+  position: relative;
+  min-height: 600px;
+}
+
+#hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
+  z-index: 2;
+}
+
+#hero-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  color: #ffffff;
+  max-width: 600px;
+  text-align: center;
+}
+
+#hero-container h1,
+#hero-container h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#hero-container h2 {
+  text-transform: capitalize;
+  font-size: 75px;
+  color: #ffffff !important;
+  line-height: 1.1em;
+  max-width: 1000px;
+}
+
+#hero-container ul {
+  display: flex;
+  gap: 20px;
+  margin: 10px 0 40px;
+}
+
+li.hero-text {
+  display: inline-block;
+}
+
+#hero-container .main-button {
+  background-color: #007bff;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 14px 28px;
+  transition: background-color 0.3s ease;
+  color: #ffffff;
+}
+
+#hero-container #main-button:hover {
+  background-color: #3390f4;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1.2s ease-out forwards;
+  animation-delay: 0.1s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,90 @@
+/* Service.css - component-scoped styles */
+
+/* container for each service row */
+.service {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 48px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+/* reverse layout: image on right, content on left */
+.service--reverse {
+  flex-direction: row-reverse;
+  text-align: left;
+}
+
+/* media block (image) */
+.service__media {
+  flex: 1 1 320px;
+  max-width: 480px;
+  min-width: 220px;
+}
+
+.service__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 8px 28px rgba(11, 26, 30, 0.06);
+  background: #fff;
+  padding: 18px;
+}
+
+/* content block */
+.service__content {
+  flex: 1 1 520px;
+  min-width: 260px;
+  color: #1f2933;
+}
+
+.service__content h2 {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+  color: #0b2540;
+}
+
+.service__content p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #4a5560;
+  margin-bottom: 18px;
+}
+
+/* actions (CTA) */
+.service__actions .main-button {
+  display: inline-block;
+  background-color: #007bff; /* keep same blue as other CTAs */
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.25s ease, transform 0.15s ease;
+  box-shadow: 0 6px 18px rgba(3, 64, 120, 0.08);
+}
+
+.service__actions .main-button:hover {
+  background-color: #3390f4;
+  transform: translateY(-2px);
+}
+
+/* small screens - stack vertically and center */
+@media (max-width: 880px) {
+  .service,
+  .service--reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+  .service__media {
+    max-width: 420px;
+    width: 100%;
+  }
+  .service__content {
+    padding-top: 16px;
+  }
+  .service__actions .main-button {
+    margin-top: 8px;
+  }
+}

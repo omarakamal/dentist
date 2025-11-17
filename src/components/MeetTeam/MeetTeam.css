@@ -1,0 +1,15 @@
+
+
+/*
+src/components/MeetTeam.css
+*/
+#team-container { flex: 1 1 50%; text-align: left; }
+#meet-team-section{ display: flex; justify-content: center; align-items: center; }
+#inner-team-container{ max-width: 1140px; margin: 0 auto; padding: 100px 20px; text-align: center; display:flex; justify-content: space-around; }
+#image-container { flex: 1 1 50%; display: flex; justify-content: center; align-items: center; padding-right: 40px; }
+#image-container img { width: 100%; max-width: 500px; height: auto; border-radius: 8px; object-fit: cover; }
+#meet-team-text{ line-height:150%; }
+#meet-team-section h2 { margin-bottom: 16px; }
+#meet-team-section p { margin-bottom: 20px; }
+#meet-team-section a { display: inline-block; margin-bottom: 0; color:#1a7fc3; transition: color 0.6s ease; }
+#meet-team-section a:hover{ color: #1a7fc3; }
