@@ -13,7 +13,7 @@ const servicesData = [
     description:
       "Professional dental cleaning to remove plaque, tartar, and polish your teeth. Includes a full hygiene exam and personalized home-care advice.",
     image:
-      "./Service-1.jpg",
+      "./service-1.jpg",
   },
   {
     id: "whitening",
@@ -29,7 +29,7 @@ const servicesData = [
     description:
       "Stable, long-lasting implants to replace missing teeth. We handle planning, placement, and restoration with modern implant systems.",
     image:
-      "./Service-2.jpg",
+      "./service-2.jpg",
   },
   {
     id: "cosmetic",
@@ -37,7 +37,7 @@ const servicesData = [
     description:
       "Porcelain veneers, crowns, and smile design to improve shape, color, and alignment — customized to your facial aesthetics.",
     image:
-      "./Service-4.jpg",
+      "./service-4.jpg",
   },
 ];
 

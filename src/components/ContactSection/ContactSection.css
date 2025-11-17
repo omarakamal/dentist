@@ -9,7 +9,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  flex-direction: row;
+  flex-direction: row ;
 }
 
 .clinic-info {

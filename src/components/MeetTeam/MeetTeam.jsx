@@ -4,7 +4,7 @@ return (
 <section id="meet-team-section">
 <div id="inner-team-container">
 <div id="image-container">
-<img src="./Safa-team.webp" alt="Meet Our Team" />
+<img src="./safa-team.webp" alt="Meet Our Team" />
 </div>
 
 
